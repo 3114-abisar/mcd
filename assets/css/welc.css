@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width:100vw;
+    height:100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height:80%;
+    width:80%;
+    background-color: white;
+}
+
+.navbar{
+    width: 100%;
+    height:16%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width:10%;
+}
+.listitem{
+    height: auto;
+    width: 50%;
+}
+.listitem ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    width: 100%;
+}
+
+.listitem li{
+    list-style: none;
+}
+
+.welcomesection{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 84%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.french{
+    height: 90%;
+    width: 90%;
+    background-color: red;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.french-img{
+    height: 100%;
+    width: 100%;
+}
+
+.french-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.details{
+    margin: 30px;
+}
+.details h2{
+    text-align:center;
+    color: red;
+    padding-bottom: 20px;
+}
+.details h1{
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 20px;
+}
+.details p{
+    margin-top: 20px;
+    text-align: justify;
+}
+.listitem a{
+    color:white;
+    text-decoration: none;
+}
