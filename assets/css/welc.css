@@ -24,12 +24,17 @@ body{
     height:16%;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-
-.logo img{
+.logo{
+    height: 100%;
     width:10%;
+}
+.logo img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
 }
 .listitem{
     height: auto;
@@ -45,6 +50,11 @@ body{
 
 .listitem li{
     list-style: none;
+    width: 20%;
+}
+.listitem li i{
+    color: orangered;
+    margin-right: 10px;
 }
 
 .welcomesection{
