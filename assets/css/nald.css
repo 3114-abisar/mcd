@@ -24,16 +24,22 @@ body{
     height:16%;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-
+.logo{
+    height: 100%;
+    width: 10%;
+}
 .logo img{
-    width:10%;
+    height: 100%;
+    width:100%;
+    object-fit:contain;
 }
 .listitem{
     height: auto;
     width: 50%;
+    /* background-color: aqua; */
 }
 .listitem ul{
     display: flex;
@@ -46,8 +52,12 @@ body{
 
 .listitem li{
     list-style: none;
+    width: 20%;
 }
-
+.listitem li i{
+    color: orangered;
+    margin-right: 10px;
+}
 .content{
     display: flex;
     flex-direction: column;
