@@ -249,28 +249,7 @@ body{
         display: none;
         /* background-color: aqua; */
     }
-
-    .listitem ul{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        color: white;
-        width: 100%;
-        left: 0;
-
-        /* background-color: aqua; */
-    }
     
-    .listitem li{
-        list-style: none;
-        width: auto;
-        transition: 1s;
-
-    }
-    .listitem li i{
-        color: orangered;
-        margin-right: 10px;
-    }
     .mobile-nav{
         position:absolute;
         left: -100%;

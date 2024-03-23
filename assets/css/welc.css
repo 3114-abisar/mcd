@@ -105,3 +105,229 @@ body{
     color:white;
     text-decoration: none;
 }
+
+
+@media screen and (max-width:1200px) {
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width:100vw;
+        height:100vh;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        height:80%;
+        width:80%;
+        background-color: white;
+    }
+    
+    .navbar{
+        width: 100%;
+        height:16%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        height: 100%;
+        width:15%;
+    }
+    .logo img{
+        width:100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .listitem{
+        height: auto;
+        width: 60%;
+    }
+    .listitem ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        width: 100%;
+    }
+    
+    .listitem li{
+        list-style: none;
+        width: auto;
+    }
+    .listitem li i{
+        color: orangered;
+        margin-right: 10px;
+    }
+    
+    .welcomesection{
+        /* background-color: aqua; */
+        width: 100%;
+        height: 84%;
+        display: block;
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+    }
+    
+    .french{
+        height: 40%;
+        width: 90%;
+        background-color: red;
+        margin-left: 27px;
+        margin-top: 20px;
+    }
+    
+    .french-img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .french-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .details{
+        margin: 30px;
+    }
+    .details h2{
+        text-align:center;
+        color: red;
+        padding-bottom: 20px;
+    }
+    .details h1{
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+        padding: 20px;
+    }
+    .details p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .listitem a{
+        color:white;
+        text-decoration: none;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    *{
+        margin:0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        width:100vw;
+        height:100vh;
+        background-color: red;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .container{
+        height:90%;
+        width:80%;
+        background-color: white;
+    }
+    
+    .navbar{
+        width: 100%;
+        height:16%;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo{
+        height: 100%;
+        width:15%;
+    }
+    .logo img{
+        width:100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .listitem{
+        height: auto;
+        width: 60%;
+    }
+    .listitem ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        width: 100%;
+    }
+    
+    .listitem li{
+        list-style: none;
+        width: auto;
+    }
+    .listitem li i{
+        color: orangered;
+        margin-right: 10px;
+    }
+    
+    .welcomesection{
+        background-color: aqua;
+        width: 100%;
+        height: 100%;
+        display: block;
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+    }
+    
+    .french{
+        height: 25%;
+        width: 90%;
+        background-color: red;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .french-img{
+        height: 100%;
+        width: 100%;
+    }
+    
+    .french-img img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .details{
+        margin: 30px;
+    }
+    .details h2{
+        text-align:center;
+        color: red;
+        font-size: 14px;
+        /* padding-bottom: 20px; */
+    }
+    .details h1{
+        text-align: center;
+        font-size: 16px;
+        /* font-weight: normal; */
+        padding: 20px;
+    }
+    .details p{
+        margin-top: 20px;
+        text-align: justify;
+    }
+    .listitem a{
+        color:white;
+        text-decoration: none;
+    }
+    
+}
