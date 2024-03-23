@@ -376,7 +376,7 @@ body{
     }
     .details p{
         margin-top: 8px;
-        /* text-align: justify; */
+        text-align: justify;
     }
     .listitem a{
         color:white;
