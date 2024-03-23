@@ -313,7 +313,7 @@ body{
         text-align:center;
         color: red;
         font-size: 14px;
-        /* padding-bottom: 20px; */
+        padding-bottom:5px;
     }
     .details h1{
         text-align: center;
@@ -322,7 +322,7 @@ body{
         /* padding: 20px; */
     }
     .details p{
-        /* margin-top: 20px; */
+        margin-top: 8px;
         text-align: justify;
     }
     .listitem a{
