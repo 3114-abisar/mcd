@@ -289,11 +289,11 @@ body{
     }
     
     .french{
-        height: 25%;
+        height: 20%;
         width: 90%;
         background-color: red;
         margin-left: 20px;
-        /* margin-top: 20px; */
+        margin-top: 10px;
     }
     
     .french-img{
